@@ -14,10 +14,10 @@
         但是需要注意的是，配置文件的名称必须是(DispatcherServlet的servlet-name)-servlet.xml
 
         -->
-        <!--<init-param>-->
-            <!--<param-name>contextConfigLocation</param-name>-->
-            <!--<param-value>classpath:springmvc.xml</param-value>-->
-        <!--</init-param>-->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:springmvc.xml</param-value>
+        </init-param>
     </servlet>
     <!--<servlet>-->
         <!--<servlet-name>default</servlet-name>-->

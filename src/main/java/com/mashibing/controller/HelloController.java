@@ -61,7 +61,7 @@ public class HelloController {
      * @param map
      * @return
      */
-    @RequestMapping(value = "/hello"/*,method = RequestMethod.POST*//*,params = {"!username"}*/,headers = {"User-Agent:=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"})
+    @RequestMapping(value = "/hello"/*,method = RequestMethod.POST*//*,params = {"!username"}*//*,headers = {"User-Agent:=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"}*/)
     public String hello(Map<String,String> map){
         System.out.println(this.getClass().getName());
         map.put("hello","hello,springmvc");
